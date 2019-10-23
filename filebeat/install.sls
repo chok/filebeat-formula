@@ -31,4 +31,3 @@ filebeat_repo:
 filebeat.install:
   pkg.installed:
     - name: filebeat
-    - pkg_verify: True
