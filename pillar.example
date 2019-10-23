@@ -38,6 +38,9 @@ filebeat:
       json.keys_under_root: true
       json.add_error_key: true
 
+  modules:
+    - system
+
   elasticsearch:
     enabled: False
     server: 127.0.0.1:9200
